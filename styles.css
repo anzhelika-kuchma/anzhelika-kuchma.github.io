@@ -1,0 +1,94 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+h1 {
+  color: #272142;
+  font-size: 40px;
+  font-weight: 800px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 24px;
+  list-style: none;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+.weather-app-wrapper {
+  margin: 100px auto;
+  max-width: 660px;
+}
+.weather-app {
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  padding: 25px;
+  background: #cefc86;
+  background: #cefc86;
+}
+.temperature {
+  font-size: 55px;
+  margin-top: 15px;
+
+  color: #272142;
+  line-height: 70px;
+  float: left;
+}
+.weather-icon {
+  margin-right: 10px;
+  padding: 0;
+  float: left;
+}
+
+.search-form {
+  margin-bottom: 20px;
+  color: #878787;
+}
+.current {
+  margin: 0;
+}
+.weather-forecast {
+  text-align: center;
+  border: none;
+  background: transparent;
+  margin-top: 40px;
+  font-size: 16px;
+}
+.weather-forecast-day {
+  color: #272142;
+  font-weight: bold;
+}
+.weather-forecast-temp {
+  font-size: 14px;
+}
+
+.search {
+  color: #fff;
+  background: #272142;
+}
+
+.units {
+  margin-left: 10px;
+}
+.units a {
+  text-decoration: none;
+}
+
+.github-link {
+  color: #464545;
+  font-size: 14px;
+}
+.active {
+  color: black;
+  cursor: default;
+}
+.active:hover {
+  color: black;
+}
